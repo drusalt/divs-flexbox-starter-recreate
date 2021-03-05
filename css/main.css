@@ -1,0 +1,66 @@
+body {
+	background-color: #23235c;
+	height: 100%;
+	font-family: 'Shippori Mincho B1', serif;
+}
+
+html {
+	padding-top: 40px;
+	font-size: 16px;
+}
+
+header {
+	font-size: 3.5em;
+	height: 200px;
+	color: #8585ad;
+
+}
+
+main {
+	font-size: 1.7em;
+	height: 250px;
+	border-bottom: 1px solid #668cff;
+	margin-bottom: 40px;
+	color: #8585ad;
+
+}
+
+.wrapper {
+	padding-left: 30px;
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	flex-flow: row wrap;
+
+}
+
+.div-1, .div-2, .div-3 {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	width: 31%;
+	height: 250px;
+	font-size: 1.2em;
+	color: #b3c6ff;
+	
+}
+
+.div-1, .div-2 {
+	border-right: 1px solid #9999ff;
+	padding-right: 20px;
+}
+
+footer #fb, #gh, #tw {
+	height: 30px;
+	width: 30px;
+	padding-top: 300px;
+	padding-right: 20px;
+
+}
+
+.border {
+	width: 100%;
+	border-top: 1px solid #668cff;
+	margin-top: 40px;
+}
